@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { LoginViajes } from './methods/loginViajes'; // ruta
+import { LoginViajes } from '../methods/EccomerceViajes/loginViajes'; // ruta
 
 test.describe('Login Tests', () => {
   let loginViajes: LoginViajes;
